@@ -1,0 +1,46 @@
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(images/bg3.jpg) no-repeat center center/cover;
+    height: 850px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+#pic{
+    flex-direction: center;
+    align-items: center;
+}
+#pic img{
+    width: 240px;
+    height: 200px;
+}
+#intro h2{
+    font-size: 2.5rem;
+}
+#intro p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.gallery img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+.input{
+    width: 80%;
+  }
+  #msg{
+    width: 70%;
+  }
+  #send{
+    width: 20%;
+  }
